@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @NewNoob2002
-- 👀 I’m interested in STM32
+- 👀 I’m interested in STM32, ESP32
 - 🌱 I’m currently learning Linux
 - 📫 +86 18107143712
 - 😄 Pronouns: ...
