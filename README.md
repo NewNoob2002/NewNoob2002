@@ -1,45 +1,67 @@
-<!-- ================== HERO DASHBOARD ================== -->
-
-<div align="center">
-
-# ⚡ TED GUO // EMBEDDED SYSTEMS
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=900&color=00F5FF&center=true&vCenter=true&width=700&lines=GNSS+%2F+RTK+System+Engineer;Embedded+Firmware+Architect;ESP32+%2F+STM32+Low-Level+Developer;Debug-first+System+Designer" />
-
-</div>
+<!-- Header -->
+<h1 align="center">Hi 👋, I'm Ted Guo</h1>
+<p align="center">
+  Embedded Engineer · GNSS · MCU · ESP32 · RTOS
+</p>
 
 ---
 
-<!-- ================== STATUS PANEL ================== -->
+## 🧭 About Me
 
-## 📡 LIVE SYSTEM STATUS
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/GNSS-Pipeline%20Active-00F5FF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/RTK-FLOAT%20%2F%20FIX-7CFC00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MCU-ESP32%20%7C%20STM32-FF6B6B?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/DEBUG-JTAG%20READY-FFD93D?style=for-the-badge"/>
-
-</div>
+- 🔭 Working on GNSS receiver systems and embedded firmware
+- ⚙️ Focused on ESP32 / STM32 / RTOS / CMake / ESP-IDF
+- 📡 Interested in positioning systems, signal processing, and edge devices
+- 🧠 Always learning low-level systems and debugging skills
 
 ---
 
-<!-- ================== SYSTEM ARCHITECTURE (CORE IDENTITY) ================== -->
+## ⚙️ Tech Stack
 
-## 🧠 SYSTEM ARCHITECTURE OVERVIEW
+**Embedded**
+- C / C++
+- ESP-IDF / FreeRTOS
+- STM32 HAL / LL
+- RTOS (ThreadX / FreeRTOS)
 
-```mermaid id="hs_arch"
-flowchart TD
-A[GNSS Signals] --> B[RF Frontend]
-B --> C[Baseband Processing]
-C --> D[Tracking Loops]
-D --> E[Position Engine]
+**Tools**
+- CMake
+- Git
+- VSCode / CLion
+- Linux (Fedora / Mint)
 
-E --> F[Embedded MCU Layer]
-F --> G[RTOS Scheduling]
-G --> H[Driver Abstraction Layer]
-H --> I[Application Layer]
+**Others**
+- Python (scripting / tooling)
+- GNSS / RTK systems
 
-I --> J[Telemetry / Logging]
-J --> K[Debug / Trace / Replay System]
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NewNoob2002&show_icons=true&theme=github_dark&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NewNoob2002&theme=github-dark&hide_border=true" />
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+- 📡 GNSS Receiver Toolkit (WIP)
+- 🧩 ESP32 Modular Framework (WIP)
+- 🧪 Embedded Debug Toolchain (WIP)
+
+---
+
+## 📫 Contact
+
+- Email: your_email@example.com
+- GitHub: https://github.com/NewNoob2002
+
+---
+
+<p align="center">
+  <i>“Make embedded systems predictable and debuggable.”</i>
+</p>
