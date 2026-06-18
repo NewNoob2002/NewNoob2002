@@ -1,109 +1,33 @@
+<!-- ================= HERO ================= -->
 
----
-
-## 🧠 CORE ENGINEERING FOCUS
-
-### 📡 GNSS / RTK Systems
-- Multi-constellation positioning (GPS / BDS / Galileo / GLONASS)
-- RTK pipeline understanding (float → fix convergence)
-- Observation data parsing & filtering (RAW / RTCM / NMEA)
-
-### ⚙️ Embedded Firmware Architecture
-- ESP32 / STM32 system design
-- Bare-metal + RTOS hybrid architecture
-- Peripheral drivers (SPI / UART / SDIO / DMA)
-- Bootloader & OTA upgrade design
-
-### 🧪 Debug & System Reliability
-- JTAG / SWD debugging workflows
-- Logic analysis + timing validation
-- Log-driven debugging methodology
-- Crash root-cause analysis in constrained systems
-
----
-
-## 🛠️ TECH STACK
-
-### Embedded
-- C / C++
-- ESP-IDF (ESP32)
-- STM32 HAL / LL
-- FreeRTOS / ThreadX
-
-### Toolchain
-- GCC / Clang / CMake
-- OpenOCD / J-Link
-- Git / GitHub workflows
-- VSCode / CLion
-- Linux (Fedora / Mint)
-
-### Data / Scripting
-- Python (automation / parsing / tooling)
-- Shell scripting
-
----
-
-## 📊 ENGINEERING METRICS
+<h1 align="center">⚡ Ted Guo</h1>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NewNoob2002&show_icons=true&theme=github_dark&hide_border=true" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00F5FF&center=true&vCenter=true&width=650&lines=Embedded+Systems+Engineer;GNSS+%2F+RTK+Developer;ESP32+%2F+STM32+Firmware+Engineer;Low-Level+Debug+%2B+System+Architecture" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NewNoob2002&theme=github-dark&hide_border=true" />
+  <img src="https://img.shields.io/badge/Embedded-C%2FC%2B%2B-00F5FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GNSS-RTK%20System-7CFC00?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MCU-ESP32%20%7C%20STM32-FF6B6B?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/RTOS-FreeRTOS%20%7C%20ThreadX-FFD93D?style=for-the-badge"/>
 </p>
 
 ---
 
-## 🚀 FEATURED SYSTEMS
+# 🧠 SYSTEM ARCHITECTURE
 
-### 📡 GNSS Receiver Stack (WIP)
-- Multi-source GNSS parsing pipeline
-- RTCM decoding + positioning fusion
-- Logging + replay-based debugging system
+```mermaid id="sys1"
+flowchart TD
+A[GNSS Signals] --> B[RF Frontend]
+B --> C[Baseband Processing]
+C --> D[Tracking Loop]
+D --> E[Position Engine]
 
-### 🧩 ESP32 Firmware Framework (WIP)
-- Modular driver abstraction layer
-- RTOS task orchestration model
-- OTA + configuration subsystem
+E --> F[MCU Firmware Layer]
+F --> G[RTOS Scheduler]
+G --> H[Drivers / Middleware]
+H --> I[Application Layer]
 
-### 🧪 Embedded Debug Toolkit (WIP)
-- Log structured tracing system
-- UART-based runtime introspection
-- Crash dump analysis utilities
-
----
-
-## 🧱 ARCHITECTURE THINKING
-
-### Firmware Design Philosophy
-- Deterministic execution over complexity
-- Debuggability is a first-class feature
-- Hardware abstraction must be explicit, not implicit
-
-### GNSS Processing Philosophy
-- Data traceability > algorithm opacity
-- Every positioning result must be reproducible
-- Raw observation preservation is critical
-
----
-
-## 📈 CURRENT FOCUS
-
-- GNSS RTK robustness improvement under weak signal conditions
-- ESP32-based modular firmware architecture
-- MCU debugging automation toolchain
-- Linux-based embedded development workflow optimization
-
----
-
-## 📫 CONTACT
-
-- GitHub: https://github.com/NewNoob2002
-- Email: your_email@example.com
-
----
-
-<p align="center">
-  <i>“Make embedded systems deterministic, observable, and debuggable.”</i>
-</p>
+I --> J[Debug / Telemetry]
+J --> K[Logs / Trace / JTAG]
