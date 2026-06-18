@@ -57,7 +57,7 @@
 
 ## 📫 Contact
 
-- Email: your_email@example.com
+- Email: guotianci2002@outlook.com
 - GitHub: https://github.com/NewNoob2002
 
 ---
