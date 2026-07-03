@@ -13,8 +13,11 @@ USERNAME = os.getenv("GITHUB_USERNAME", "NewNoob2002")
 TOKEN = os.getenv("GITHUB_TOKEN", "")
 README_PATH = os.getenv("README_PATH", "README.md")
 
-START = "<!-- AUTO-GENERATED-PROJECTS:START -->"
-END = "<!-- AUTO-GENERATED-PROJECTS:END -->"
+PROJECTS_START = "<!-- AUTO-GENERATED-PROJECTS:START -->"
+PROJECTS_END = "<!-- AUTO-GENERATED-PROJECTS:END -->"
+
+STATS_START = "<!-- AUTO-GENERATED-STATS:START -->"
+STATS_END = "<!-- AUTO-GENERATED-STATS:END -->"
 
 
 def github_get(url: str) -> Any:
@@ -29,13 +32,15 @@ def github_get(url: str) -> Any:
     req = urllib.request.Request(url, headers=headers)
 
     with urllib.request.urlopen(req, timeout=20) as resp:
-        if resp.status < 200 or resp.status >= 300:
-            raise RuntimeError(f"GitHub API error: HTTP {resp.status}")
         return json.loads(resp.read().decode("utf-8"))
 
 
+def fetch_profile() -> dict[str, Any]:
+    return github_get(f"https://api.github.com/users/{USERNAME}")
+
+
 def fetch_repos() -> list[dict[str, Any]]:
-    repos: list[dict[str, Any]] = []
+    repos = []
     page = 1
 
     while True:
@@ -52,13 +57,6 @@ def fetch_repos() -> list[dict[str, Any]]:
         page += 1
 
     return repos
-
-
-def repo_score(repo: dict[str, Any]) -> tuple[int, int, str]:
-    stars = int(repo.get("stargazers_count") or 0)
-    forks = int(repo.get("forks_count") or 0)
-    pushed_at = repo.get("pushed_at") or ""
-    return stars, forks, pushed_at
 
 
 def clean_repos(repos: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -78,7 +76,15 @@ def clean_repos(repos: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
         result.append(repo)
 
-    result.sort(key=repo_score, reverse=True)
+    result.sort(
+        key=lambda r: (
+            int(r.get("stargazers_count") or 0),
+            int(r.get("forks_count") or 0),
+            r.get("pushed_at") or "",
+        ),
+        reverse=True,
+    )
+
     return result
 
 
@@ -102,22 +108,15 @@ def format_project(repo: dict[str, Any]) -> str:
     )
 
 
-def build_generated_block(repos: list[dict[str, Any]]) -> str:
+def build_projects_block(repos: list[dict[str, Any]]) -> str:
     featured = repos[:6]
 
-    language_counter = Counter()
-    for repo in repos:
-        language = repo.get("language")
-        if language:
-            language_counter[language] += 1
-
-    now = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
-
-    lines = []
-    lines.append(START)
-    lines.append("")
-    lines.append("### Auto-updated repositories")
-    lines.append("")
+    lines = [
+        PROJECTS_START,
+        "",
+        "### Auto-updated repositories",
+        "",
+    ]
 
     if featured:
         for repo in featured:
@@ -127,28 +126,62 @@ def build_generated_block(repos: list[dict[str, Any]]) -> str:
         lines.append("No public repositories found.")
         lines.append("")
 
-    if language_counter:
-        lines.append("### Repository language snapshot")
-        lines.append("")
-        lines.append("| Language | Repositories |")
-        lines.append("| --- | ---: |")
-        for lang, count in language_counter.most_common(8):
-            lines.append(f"| {lang} | {count} |")
-        lines.append("")
+    lines.append(PROJECTS_END)
+    return "\n".join(lines)
 
-    lines.append(f"_Last updated: {now}_")
-    lines.append("")
-    lines.append(END)
+
+def build_stats_block(profile: dict[str, Any], repos: list[dict[str, Any]]) -> str:
+    language_counter = Counter()
+    total_stars = 0
+    total_forks = 0
+
+    for repo in repos:
+        language = repo.get("language")
+        if language:
+            language_counter[language] += 1
+
+        total_stars += int(repo.get("stargazers_count") or 0)
+        total_forks += int(repo.get("forks_count") or 0)
+
+    top_languages = ", ".join(lang for lang, _ in language_counter.most_common(5))
+    if not top_languages:
+        top_languages = "C / C++ / Python / Shell"
+
+    public_repos = profile.get("public_repos", len(repos))
+    followers = profile.get("followers", 0)
+    following = profile.get("following", 0)
+    updated_at = dt.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
+    lines = [
+        STATS_START,
+        "",
+        "| Item | Value |",
+        "| --- | ---: |",
+        f"| Public repositories | {public_repos} |",
+        f"| Featured repositories | {len(repos)} |",
+        f"| Total stars | {total_stars} |",
+        f"| Total forks | {total_forks} |",
+        f"| Followers | {followers} |",
+        f"| Following | {following} |",
+        "",
+        f"**Main languages:** {top_languages}",
+        "",
+        "**Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling",
+        "",
+        f"_Last updated: {updated_at}_",
+        "",
+        STATS_END,
+    ]
 
     return "\n".join(lines)
 
 
-def replace_block(readme: str, generated: str) -> str:
-    if START not in readme or END not in readme:
+def replace_block(readme: str, start: str, end: str, generated: str) -> str:
+    if start not in readme or end not in readme:
         return readme.rstrip() + "\n\n" + generated + "\n"
 
-    before = readme.split(START)[0].rstrip()
-    after = readme.split(END, 1)[1].lstrip()
+    before = readme.split(start)[0].rstrip()
+    after = readme.split(end, 1)[1].lstrip()
 
     return before + "\n\n" + generated + "\n\n" + after
 
@@ -158,22 +191,30 @@ def main() -> int:
         print(f"README not found: {README_PATH}", file=sys.stderr)
         return 1
 
+    profile = fetch_profile()
     repos = clean_repos(fetch_repos())
-    generated = build_generated_block(repos)
 
     with open(README_PATH, "r", encoding="utf-8") as f:
-        old_readme = f.read()
+        readme = f.read()
 
-    new_readme = replace_block(old_readme, generated)
+    readme = replace_block(
+        readme,
+        PROJECTS_START,
+        PROJECTS_END,
+        build_projects_block(repos),
+    )
 
-    if new_readme == old_readme:
-        print("README is already up to date.")
-        return 0
+    readme = replace_block(
+        readme,
+        STATS_START,
+        STATS_END,
+        build_stats_block(profile, repos),
+    )
 
     with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(new_readme)
+        f.write(readme)
 
-    print(f"README updated with {min(len(repos), 6)} featured repositories.")
+    print("README updated successfully.")
     return 0
 
 

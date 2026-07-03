@@ -81,12 +81,11 @@ GNSS receiver firmware
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Snapshot
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NewNoob2002&show_icons=true&theme=github_dark&hide_border=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NewNoob2002&layout=compact&theme=github_dark&hide_border=true" height="165" />
-</p>
+<!-- AUTO-GENERATED-STATS:START -->
+<!-- This section is automatically updated by scripts/update_readme.py -->
+<!-- AUTO-GENERATED-STATS:END -->
 
 ---
 
