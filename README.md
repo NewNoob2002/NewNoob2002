@@ -1,67 +1,102 @@
-<!-- Header -->
 <h1 align="center">Hi 👋, I'm Ted Guo</h1>
+
 <p align="center">
-  Embedded Engineer · GNSS · MCU · ESP32 · RTOS
+  Embedded Firmware Engineer · GNSS / RTK · MCU · RTOS · Linux Tooling
+</p>
+
+<p align="center">
+  <a href="https://github.com/NewNoob2002">
+    <img src="https://img.shields.io/badge/GitHub-NewNoob2002-181717?style=flat-square&logo=github" />
+  </a>
+  <a href="mailto:guotianci2002@outlook.com">
+    <img src="https://img.shields.io/badge/Email-guotianci2002%40outlook.com-blue?style=flat-square&logo=microsoftoutlook" />
+  </a>
 </p>
 
 ---
 
 ## 🧭 About Me
 
-- 🔭 Working on GNSS receiver systems and embedded firmware
-- ⚙️ Focused on ESP32 / STM32 / RTOS / CMake / ESP-IDF
-- 📡 Interested in positioning systems, signal processing, and edge devices
-- 🧠 Always learning low-level systems and debugging skills
+I work on embedded firmware and GNSS receiver systems, with a strong focus on making low-level systems predictable, testable, and debuggable.
+
+* 🔭 Building firmware for GNSS / RTK receiver systems and edge devices
+* ⚙️ Working with ESP32, STM32, CAN, UART, SPI, I2C, SDIO, and RTOS-based systems
+* 🧩 Interested in modular embedded architecture, driver abstraction, and debugging toolchains
+* 🛠️ Using Linux, CMake, Git, J-Link/Ozone, RTT, and scripting to improve development workflow
+* 📡 Exploring positioning systems, real-time data parsing, and field-oriented embedded products
 
 ---
 
 ## ⚙️ Tech Stack
 
-**Embedded**
-- C / C++
-- ESP-IDF / FreeRTOS
-- STM32 HAL / LL
-- RTOS (ThreadX / FreeRTOS)
+### Embedded Firmware
 
-**Tools**
-- CMake
-- Git
-- VSCode / CLion
-- Linux (Fedora / Mint)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square\&logo=c\&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square\&logo=cplusplus\&logoColor=white)
+![ESP-IDF](https://img.shields.io/badge/ESP--IDF-E7352C?style=flat-square\&logo=espressif\&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square\&logo=stmicroelectronics\&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-222222?style=flat-square)
+![ThreadX](https://img.shields.io/badge/ThreadX-0078D4?style=flat-square)
 
-**Others**
-- Python (scripting / tooling)
-- GNSS / RTK systems
+### Interfaces & Systems
+
+![CAN](https://img.shields.io/badge/CAN-Bus-orange?style=flat-square)
+![UART](https://img.shields.io/badge/UART-Serial-lightgrey?style=flat-square)
+![SPI](https://img.shields.io/badge/SPI-Interface-lightgrey?style=flat-square)
+![I2C](https://img.shields.io/badge/I2C-Interface-lightgrey?style=flat-square)
+![GNSS](https://img.shields.io/badge/GNSS%20%2F%20RTK-Positioning-green?style=flat-square)
+![RTCM](https://img.shields.io/badge/RTCM-Protocol-green?style=flat-square)
+
+### Tools
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square\&logo=cmake\&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
+![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square\&logo=visualstudiocode\&logoColor=white)
+![CLion](https://img.shields.io/badge/CLion-000000?style=flat-square\&logo=clion\&logoColor=white)
+![Python](https://img.shields.io/badge/Python-Scripting-3776AB?style=flat-square\&logo=python\&logoColor=white)
+
+---
+
+## 🧩 Current Focus
+
+```text
+GNSS receiver firmware
+├── Protocol parsing: NMEA / RTCM / Unicore / UBX
+├── MCU platform: ESP32 / STM32
+├── RTOS design: FreeRTOS / ThreadX
+├── Field interfaces: CAN / UART / RS485 / SD card
+└── Debug workflow: RTT / Ozone / map analysis / runtime stats
+```
+
+---
+
+## 🚀 Featured Projects
+
+<!-- AUTO-GENERATED-PROJECTS:START -->
+
+<!-- This section is automatically updated by scripts/update_readme.py -->
+
+<!-- AUTO-GENERATED-PROJECTS:END -->
 
 ---
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NewNoob2002&show_icons=true&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=NewNoob2002&show_icons=true&theme=github_dark&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NewNoob2002&layout=compact&theme=github_dark&hide_border=true" height="165" />
 </p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=NewNoob2002&theme=github-dark&hide_border=true" />
-</p>
-
----
-
-## 🚀 Featured Projects
-
-- 📡 GNSS Receiver Toolkit (WIP)
-- 🧩 ESP32 Modular Framework (WIP)
-- 🧪 Embedded Debug Toolchain (WIP)
 
 ---
 
 ## 📫 Contact
 
-- Email: guotianci2002@outlook.com
-- GitHub: https://github.com/NewNoob2002
+* Email: [guotianci2002@outlook.com](mailto:guotianci2002@outlook.com)
+* GitHub: [NewNoob2002](https://github.com/NewNoob2002)
 
 ---
 
 <p align="center">
-  <i>“Make embedded systems predictable and debuggable.”</i>
+  <i>Make embedded systems predictable and debuggable.</i>
 </p>
