@@ -80,14 +80,14 @@ GNSS receiver firmware
 - [Imx6ull-linux](https://github.com/NewNoob2002/Imx6ull-linux) — linux project
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
+- [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
+  - `Python` · ⭐ 1 · 🍴 0 · updated `2026-06-26`
+
 - [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
   - `C` · ⭐ 1 · 🍴 0 · updated `2026-06-18`
 
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
-
-- [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
-  - `Python` · ⭐ 0 · 🍴 0 · updated `2026-06-26`
 
 - [E1-5.4](https://github.com/NewNoob2002/E1-5.4) — No description yet.
   - `C` · ⭐ 0 · 🍴 0 · updated `2026-06-17`
@@ -107,7 +107,7 @@ GNSS receiver firmware
 | --- | ---: |
 | Public repositories | 34 |
 | Featured repositories | 15 |
-| Total stars | 5 |
+| Total stars | 6 |
 | Total forks | 1 |
 | Followers | 3 |
 | Following | 21 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-07-05 04:30 UTC_
+_Last updated: 2026-07-06 04:39 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
