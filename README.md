@@ -80,11 +80,11 @@ GNSS receiver firmware
 - [Imx6ull-linux](https://github.com/NewNoob2002/Imx6ull-linux) — linux project
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
-- [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
-  - `C` · ⭐ 1 · 🍴 0 · updated `2026-07-09`
-
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
-  - `Python` · ⭐ 1 · 🍴 0 · updated `2026-06-26`
+  - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-15`
+
+- [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
+  - `C` · ⭐ 1 · 🍴 0 · updated `2026-07-14`
 
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
@@ -109,14 +109,14 @@ GNSS receiver firmware
 | Featured repositories | 15 |
 | Total stars | 6 |
 | Total forks | 1 |
-| Followers | 4 |
+| Followers | 5 |
 | Following | 21 |
 
 **Main languages:** C, Python, Makefile, Assembly
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-07-14 03:34 UTC_
+_Last updated: 2026-07-15 03:36 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
