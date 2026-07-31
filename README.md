@@ -80,20 +80,20 @@ GNSS receiver firmware
 - [Imx6ull-linux](https://github.com/NewNoob2002/Imx6ull-linux) — linux project
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
+- [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
+  - `C` · ⭐ 1 · 🍴 0 · updated `2026-07-30`
+
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
   - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-27`
-
-- [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
-  - `C` · ⭐ 1 · 🍴 0 · updated `2026-07-14`
 
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
-- [HC32F460xE_Bootloader](https://github.com/NewNoob2002/HC32F460xE_Bootloader) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-07-24`
+- [hpm_sdk](https://github.com/NewNoob2002/hpm_sdk) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-07-31`
 
-- [lvgl_simulator](https://github.com/NewNoob2002/lvgl_simulator) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-07-24`
+- [hpm5321_can_analyzer](https://github.com/NewNoob2002/hpm5321_can_analyzer) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-07-31`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,8 +105,8 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 36 |
-| Featured repositories | 17 |
+| Public repositories | 38 |
+| Featured repositories | 19 |
 | Total stars | 6 |
 | Total forks | 1 |
 | Followers | 5 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-07-30 03:29 UTC_
+_Last updated: 2026-07-31 03:51 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
