@@ -89,11 +89,11 @@ GNSS receiver firmware
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
-- [robot_control](https://github.com/NewNoob2002/robot_control) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-09-11`
+- [foc_motor](https://github.com/NewNoob2002/foc_motor) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-09-15`
 
-- [HC32F460xE_MCUBoot_SLAM](https://github.com/NewNoob2002/HC32F460xE_MCUBoot_SLAM) — Minimal MCUboot boot and application firmware for HC32F460xE
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-09-03`
+- [watch_zephyr](https://github.com/NewNoob2002/watch_zephyr) — No description yet.
+  - `Mixed` · ⭐ 0 · 🍴 0 · updated `2026-09-15`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,8 +105,8 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 42 |
-| Featured repositories | 22 |
+| Public repositories | 46 |
+| Featured repositories | 26 |
 | Total stars | 6 |
 | Total forks | 1 |
 | Followers | 5 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-09-14 04:58 UTC_
+_Last updated: 2026-09-15 04:56 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
