@@ -90,7 +90,7 @@ GNSS receiver firmware
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [ATK_RK3506](https://github.com/NewNoob2002/ATK_RK3506) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-09-29`
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-09-30`
 
 - [AGENTS](https://github.com/NewNoob2002/AGENTS) — No description yet.
   - `Mixed` · ⭐ 0 · 🍴 0 · updated `2026-09-28`
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-09-29 05:45 UTC_
+_Last updated: 2026-09-30 05:34 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
