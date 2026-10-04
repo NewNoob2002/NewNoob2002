@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-10-03 05:20 UTC_
+_Last updated: 2026-10-04 05:55 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
