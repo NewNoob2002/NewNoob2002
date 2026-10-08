@@ -109,14 +109,14 @@ GNSS receiver firmware
 | Featured repositories | 28 |
 | Total stars | 6 |
 | Total forks | 1 |
-| Followers | 4 |
+| Followers | 5 |
 | Following | 21 |
 
 **Main languages:** C, Python, Makefile, C++, Assembly
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-10-07 06:01 UTC_
+_Last updated: 2026-10-08 06:06 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
