@@ -89,11 +89,11 @@ GNSS receiver firmware
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
-- [ATK_RK3506](https://github.com/NewNoob2002/ATK_RK3506) — No description yet.
+- [robot_control](https://github.com/NewNoob2002/robot_control) — No description yet.
   - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-09`
 
-- [AGENTS](https://github.com/NewNoob2002/AGENTS) — No description yet.
-  - `Mixed` · ⭐ 0 · 🍴 0 · updated `2026-09-28`
+- [ATK_RK3506](https://github.com/NewNoob2002/ATK_RK3506) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-09`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,7 +105,7 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 49 |
+| Public repositories | 50 |
 | Featured repositories | 28 |
 | Total stars | 6 |
 | Total forks | 1 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-10-09 06:10 UTC_
+_Last updated: 2026-10-10 05:54 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
