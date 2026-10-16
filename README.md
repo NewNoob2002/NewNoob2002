@@ -90,10 +90,10 @@ GNSS receiver firmware
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [foc_motor](https://github.com/NewNoob2002/foc_motor) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-15`
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-16`
 
-- [robot_control](https://github.com/NewNoob2002/robot_control) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-13`
+- [HC32F460xE_Bootloader](https://github.com/NewNoob2002/HC32F460xE_Bootloader) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-16`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-10-15 04:41 UTC_
+_Last updated: 2026-10-16 04:33 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
