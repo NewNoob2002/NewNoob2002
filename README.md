@@ -81,7 +81,7 @@ GNSS receiver firmware
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
 - [HC32F460xE_Arduino](https://github.com/NewNoob2002/HC32F460xE_Arduino) — No description yet.
-  - `C` · ⭐ 1 · 🍴 0 · updated `2026-09-23`
+  - `C` · ⭐ 1 · 🍴 0 · updated `2026-10-20`
 
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
   - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-27`
@@ -89,11 +89,11 @@ GNSS receiver firmware
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
+- [ATK_RK3506](https://github.com/NewNoob2002/ATK_RK3506) — No description yet.
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-20`
+
 - [HC32F460xE_Bootloader](https://github.com/NewNoob2002/HC32F460xE_Bootloader) — No description yet.
   - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-19`
-
-- [foc_motor](https://github.com/NewNoob2002/foc_motor) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-16`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-10-19 04:42 UTC_
+_Last updated: 2026-10-20 04:52 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
