@@ -81,7 +81,7 @@ GNSS receiver firmware
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
 - [GNSS_Panel](https://github.com/NewNoob2002/GNSS_Panel) — No description yet.
-  - `C` · ⭐ 1 · 🍴 0 · updated `2026-10-30`
+  - `C` · ⭐ 1 · 🍴 0 · updated `2026-11-02`
 
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
   - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-27`
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-01 06:07 UTC_
+_Last updated: 2026-11-02 06:06 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
