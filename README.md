@@ -86,14 +86,14 @@ GNSS receiver firmware
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
   - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-27`
 
+- [NEMA2000_ESP](https://github.com/NewNoob2002/NEMA2000_ESP) — No description yet.
+  - `C++` · ⭐ 1 · 🍴 0 · updated `2026-06-30`
+
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [HC32F460xE_MCUBoot_SLAM](https://github.com/NewNoob2002/HC32F460xE_MCUBoot_SLAM) — Minimal MCUboot boot and application firmware for HC32F460xE
   - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-30`
-
-- [robot_control](https://github.com/NewNoob2002/robot_control) — No description yet.
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-27`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -107,7 +107,7 @@ GNSS receiver firmware
 | --- | ---: |
 | Public repositories | 54 |
 | Featured repositories | 28 |
-| Total stars | 6 |
+| Total stars | 7 |
 | Total forks | 1 |
 | Followers | 5 |
 | Following | 22 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-02 06:06 UTC_
+_Last updated: 2026-11-03 06:49 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
