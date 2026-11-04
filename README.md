@@ -93,7 +93,7 @@ GNSS receiver firmware
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [HC32F460xE_MCUBoot_SLAM](https://github.com/NewNoob2002/HC32F460xE_MCUBoot_SLAM) — Minimal MCUboot boot and application firmware for HC32F460xE
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-10-30`
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-11-04`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,8 +105,8 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 54 |
-| Featured repositories | 28 |
+| Public repositories | 55 |
+| Featured repositories | 29 |
 | Total stars | 7 |
 | Total forks | 1 |
 | Followers | 5 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-03 06:49 UTC_
+_Last updated: 2026-11-04 06:25 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
