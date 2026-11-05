@@ -81,7 +81,7 @@ GNSS receiver firmware
   - `Makefile` · ⭐ 3 · 🍴 1 · updated `2023-08-22`
 
 - [GNSS_Panel](https://github.com/NewNoob2002/GNSS_Panel) — No description yet.
-  - `C` · ⭐ 1 · 🍴 0 · updated `2026-11-02`
+  - `C` · ⭐ 1 · 🍴 0 · updated `2026-11-04`
 
 - [embedSkills](https://github.com/NewNoob2002/embedSkills) — No description yet.
   - `Python` · ⭐ 1 · 🍴 0 · updated `2026-07-27`
@@ -93,7 +93,7 @@ GNSS receiver firmware
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [HC32F460xE_MCUBoot_SLAM](https://github.com/NewNoob2002/HC32F460xE_MCUBoot_SLAM) — Minimal MCUboot boot and application firmware for HC32F460xE
-  - `C` · ⭐ 0 · 🍴 0 · updated `2026-11-04`
+  - `C` · ⭐ 0 · 🍴 0 · updated `2026-11-05`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-04 06:25 UTC_
+_Last updated: 2026-11-05 06:48 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
