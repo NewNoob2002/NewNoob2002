@@ -105,7 +105,7 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 55 |
+| Public repositories | 56 |
 | Featured repositories | 29 |
 | Total stars | 7 |
 | Total forks | 1 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-05 06:48 UTC_
+_Last updated: 2026-11-06 06:49 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
