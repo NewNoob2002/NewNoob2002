@@ -92,8 +92,8 @@ GNSS receiver firmware
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
-- [gtui-terms](https://github.com/NewNoob2002/gtui-terms) — No description yet.
-  - `Rust` · ⭐ 0 · 🍴 0 · updated `2026-11-13`
+- [Skills](https://github.com/NewNoob2002/Skills) — No description yet.
+  - `Python` · ⭐ 0 · 🍴 0 · updated `2026-11-17`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,8 +105,8 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 59 |
-| Featured repositories | 30 |
+| Public repositories | 60 |
+| Featured repositories | 31 |
 | Total stars | 7 |
 | Total forks | 1 |
 | Followers | 5 |
@@ -116,7 +116,7 @@ GNSS receiver firmware
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-16 06:31 UTC_
+_Last updated: 2026-11-17 07:56 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
