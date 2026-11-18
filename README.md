@@ -92,8 +92,8 @@ GNSS receiver firmware
 - [stm32-mqtt-onnet4G](https://github.com/NewNoob2002/stm32-mqtt-onnet4G) — net project of stm32
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
-- [Skills](https://github.com/NewNoob2002/Skills) — No description yet.
-  - `Python` · ⭐ 0 · 🍴 0 · updated `2026-11-17`
+- [RTK_Main](https://github.com/NewNoob2002/RTK_Main) — No description yet.
+  - `C++` · ⭐ 0 · 🍴 0 · updated `2026-11-18`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -105,18 +105,18 @@ GNSS receiver firmware
 
 | Item | Value |
 | --- | ---: |
-| Public repositories | 60 |
-| Featured repositories | 31 |
+| Public repositories | 62 |
+| Featured repositories | 32 |
 | Total stars | 7 |
 | Total forks | 1 |
 | Followers | 5 |
 | Following | 22 |
 
-**Main languages:** C, Python, Makefile, C++, Rust
+**Main languages:** C, Python, C++, Makefile, Rust
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-17 07:56 UTC_
+_Last updated: 2026-11-18 07:30 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
