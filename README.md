@@ -93,7 +93,7 @@ GNSS receiver firmware
   - `C` · ⭐ 1 · 🍴 0 · updated `2023-07-23`
 
 - [RTK_Main](https://github.com/NewNoob2002/RTK_Main) — No description yet.
-  - `C++` · ⭐ 0 · 🍴 0 · updated `2026-11-23`
+  - `C++` · ⭐ 0 · 🍴 0 · updated `2026-11-24`
 
 <!-- AUTO-GENERATED-PROJECTS:END -->
 
@@ -109,14 +109,14 @@ GNSS receiver firmware
 | Featured repositories | 32 |
 | Total stars | 7 |
 | Total forks | 1 |
-| Followers | 5 |
+| Followers | 4 |
 | Following | 22 |
 
 **Main languages:** C, Python, C++, Makefile, Rust
 
 **Focus:** Embedded firmware · GNSS / RTK · MCU · RTOS · Linux tooling
 
-_Last updated: 2026-11-23 07:40 UTC_
+_Last updated: 2026-11-24 09:55 UTC_
 
 <!-- AUTO-GENERATED-STATS:END -->
 
